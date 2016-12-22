@@ -1,7 +1,7 @@
 node {
     
     stage 'Checkout'
-    git "https://github.com/kohsuke/petclinic.git"
+    git "https://github.com/evaldasou/petclinic.git"
 
     stage 'Build application war file'
     // Build petclinic in a Maven3+JDK8 Docker container
